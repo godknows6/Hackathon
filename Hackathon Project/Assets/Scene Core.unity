@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -441,8 +441,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 454449454}
-        m_MethodName: Model_Click
+      - m_Target: {fileID: 2073458480}
+        m_MethodName: Video_Click
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -600,10 +600,10 @@ Transform:
   m_LocalPosition: {x: 727, y: 0, z: 0}
   m_LocalScale: {x: 70.72581, y: 70.72581, z: 70.72581}
   m_Children:
-  - {fileID: 2073458471}
   - {fileID: 2027443837}
   - {fileID: 412921708}
   - {fileID: 1763694303}
+  - {fileID: 2073458471}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -915,7 +915,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1763694304}
+      - m_Target: {fileID: 1763694311}
         m_MethodName: video_Click
         m_Mode: 1
         m_Arguments:
@@ -1996,7 +1996,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1763694304}
+      - m_Target: {fileID: 2073458479}
         m_MethodName: video_Click
         m_Mode: 1
         m_Arguments:
@@ -2076,7 +2076,7 @@ RectTransform:
   - {fileID: 130298207}
   - {fileID: 388123245}
   m_Father: {fileID: 74859985}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -3962,7 +3962,7 @@ GameObject:
   - component: {fileID: 1181041792}
   - component: {fileID: 1181041791}
   m_Layer: 5
-  m_Name: model Button4
+  m_Name: Model Button4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4026,7 +4026,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 265529595}
+      - m_Target: {fileID: 2027443841}
         m_MethodName: Info_Click
         m_Mode: 1
         m_Arguments:
@@ -5145,7 +5145,7 @@ VideoPlayer:
   m_RenderMode: 3
   m_AspectRatio: 2
   m_DataSource: 0
-  m_PlaybackSpeed: 0.69
+  m_PlaybackSpeed: 1
   m_AudioOutputMode: 1
   m_TargetAudioSources:
   - {fileID: 1607461694}
@@ -5316,7 +5316,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1763694305}
+      - m_Target: {fileID: 1763694312}
         m_MethodName: Video_Click
         m_Mode: 1
         m_Arguments:
@@ -5538,6 +5538,8 @@ GameObject:
   - component: {fileID: 1763694306}
   - component: {fileID: 1763694305}
   - component: {fileID: 1763694304}
+  - component: {fileID: 1763694312}
+  - component: {fileID: 1763694311}
   m_Layer: 0
   m_Name: Video_Plane4-1
   m_TagString: Untagged
@@ -5556,7 +5558,7 @@ Transform:
   m_LocalScale: {x: 0.11826531, y: 0.036562465, z: 0.07181777}
   m_Children: []
   m_Father: {fileID: 74859985}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!114 &1763694304
 MonoBehaviour:
@@ -5670,7 +5672,7 @@ VideoPlayer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1763694302}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 046158c8476f05d49882409592c8adc8, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 5ae2f96aeba635b48ba1b2c214822910, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -5681,7 +5683,7 @@ VideoPlayer:
   m_RenderMode: 3
   m_AspectRatio: 2
   m_DataSource: 0
-  m_PlaybackSpeed: 0.69
+  m_PlaybackSpeed: 1
   m_AudioOutputMode: 1
   m_TargetAudioSources:
   - {fileID: 1763694306}
@@ -5751,6 +5753,31 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1763694302}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1763694311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1763694302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57fb7e7c7f4e82346a3263cdf4daccd4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  video41: {fileID: 0}
+--- !u!114 &1763694312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1763694302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8c265637ef40684ea940f36c64a4c6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  video_plane41: {fileID: 0}
+  video_btn41: {fileID: 0}
 --- !u!1 &1776857508
 GameObject:
   m_ObjectHideFlags: 0
@@ -6491,6 +6518,7 @@ GameObject:
   - component: {fileID: 2027443840}
   - component: {fileID: 2027443839}
   - component: {fileID: 2027443838}
+  - component: {fileID: 2027443841}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -6512,7 +6540,7 @@ Transform:
   - {fileID: 1776857509}
   - {fileID: 609542963}
   m_Father: {fileID: 74859985}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 78.034004, y: -5.788, z: -8.805}
 --- !u!23 &2027443838
 MeshRenderer:
@@ -6567,6 +6595,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2027443836}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2027443841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2027443836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a16af4e5121119b4e88562816363520e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plane4: {fileID: 0}
 --- !u!1 &2048457335
 GameObject:
   m_ObjectHideFlags: 0
@@ -6704,6 +6744,8 @@ GameObject:
   - component: {fileID: 2073458474}
   - component: {fileID: 2073458473}
   - component: {fileID: 2073458472}
+  - component: {fileID: 2073458480}
+  - component: {fileID: 2073458479}
   m_Layer: 0
   m_Name: Video_Plane4-2
   m_TagString: Untagged
@@ -6722,7 +6764,7 @@ Transform:
   m_LocalScale: {x: 0.11826531, y: 0.036562465, z: 0.07181777}
   m_Children: []
   m_Father: {fileID: 74859985}
-  m_RootOrder: 0
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!114 &2073458472
 MonoBehaviour:
@@ -6836,7 +6878,7 @@ VideoPlayer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2073458470}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 046158c8476f05d49882409592c8adc8, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 1633dc75a9b9aa4438228716f512db18, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -6847,7 +6889,7 @@ VideoPlayer:
   m_RenderMode: 3
   m_AspectRatio: 2
   m_DataSource: 0
-  m_PlaybackSpeed: 0.69
+  m_PlaybackSpeed: 1
   m_AudioOutputMode: 1
   m_TargetAudioSources:
   - {fileID: 2073458474}
@@ -6917,6 +6959,31 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2073458470}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2073458479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2073458470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b779cc72845c814d8a736d27b9235b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  video42: {fileID: 0}
+--- !u!114 &2073458480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2073458470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7adf014a26410e48aa4137f736e027d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  video_plane42: {fileID: 0}
+  video_btn42: {fileID: 0}
 --- !u!1 &2076675851
 GameObject:
   m_ObjectHideFlags: 0
@@ -7255,7 +7322,7 @@ VideoPlayer:
   m_DirectAudioVolumes:
   - 1
   m_Url: 
-  m_EnabledAudioTracks: 01
+  m_EnabledAudioTracks: 00
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1
   m_PlayOnAwake: 0
