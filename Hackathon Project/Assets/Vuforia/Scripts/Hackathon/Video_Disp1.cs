@@ -8,7 +8,7 @@ public class Video_Disp1 : MonoBehaviour {
 	void Start ()
 	{
 		video_plane1 = GameObject.Find ("Video_Plane1");
-		video_btn = GameObject.Find ("Button4");
+		video_btn = GameObject.Find ("Play Button1");
 		video_plane1.SetActive (false);
 		video_btn.SetActive (false);
 	}
