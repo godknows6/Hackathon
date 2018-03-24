@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -5536,8 +5536,6 @@ GameObject:
   - component: {fileID: 1763694308}
   - component: {fileID: 1763694307}
   - component: {fileID: 1763694306}
-  - component: {fileID: 1763694305}
-  - component: {fileID: 1763694304}
   - component: {fileID: 1763694312}
   - component: {fileID: 1763694311}
   m_Layer: 0
@@ -5560,31 +5558,6 @@ Transform:
   m_Father: {fileID: 74859985}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
---- !u!114 &1763694304
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1763694302}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f6845d3c9a1fee84fb6b0b6fea884224, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  video3: {fileID: 0}
---- !u!114 &1763694305
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1763694302}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b8c0b172d8320374f9d57e6a3093e02a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  video_plane3: {fileID: 0}
-  video_btn3: {fileID: 0}
 --- !u!82 &1763694306
 AudioSource:
   m_ObjectHideFlags: 0
@@ -6118,6 +6091,7 @@ GameObject:
   - component: {fileID: 1877277459}
   - component: {fileID: 1877277458}
   - component: {fileID: 1877277457}
+  - component: {fileID: 1877277462}
   m_Layer: 0
   m_Name: ARCamera
   m_TagString: Untagged
@@ -6205,6 +6179,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1877277462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1877277456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bd5c2c9cd2695d478b6bf4bae9153a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1887856755
 GameObject:
   m_ObjectHideFlags: 0
@@ -6742,8 +6727,6 @@ GameObject:
   - component: {fileID: 2073458476}
   - component: {fileID: 2073458475}
   - component: {fileID: 2073458474}
-  - component: {fileID: 2073458473}
-  - component: {fileID: 2073458472}
   - component: {fileID: 2073458480}
   - component: {fileID: 2073458479}
   m_Layer: 0
@@ -6766,31 +6749,6 @@ Transform:
   m_Father: {fileID: 74859985}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
---- !u!114 &2073458472
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2073458470}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f6845d3c9a1fee84fb6b0b6fea884224, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  video3: {fileID: 0}
---- !u!114 &2073458473
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2073458470}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b8c0b172d8320374f9d57e6a3093e02a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  video_plane3: {fileID: 0}
-  video_btn3: {fileID: 0}
 --- !u!82 &2073458474
 AudioSource:
   m_ObjectHideFlags: 0
